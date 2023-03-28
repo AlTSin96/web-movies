@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5,h6 {font-family: 'Righteous', cursive;}
+h1 {font-size:48px;font-weight:bold}
+h2 {font-size:36px;color:#FC4F15;margin-bottom:5px;margin-top:10px;}
+h3 {font-size:24px;color:#FC4F15;margin-bottom:5px;margin-top:10px;}
+
+body {font-family: 'Montserrat', sans-serif; font-size:16px}
+
+#main-header, .movie, h2, #recently-added li, .trailer, .plot-summary,
+.credits {padding:5px;}
+
+#main-header {
+  padding-bottom:10px;
+  border-bottom:20px solid black;
+  margin-bottom:10px;
+  color:black;
+}
+
+a {color:inherit; outline:none; text-decoration:none;}
+
+.rating::before {content:"Rating: ";}
+
+#recently-added {padding-left:15px}
+#recently-added ol {list-style-type:decimal; margin-left: 22px;}
+
+
+.cast-list li, .cast-list ul {display: inline;}
+.credits .name {color:#555;}
+.cast-list .name::after {content:", ";}
+.cast-list .name:last-child::after {content:"";}
